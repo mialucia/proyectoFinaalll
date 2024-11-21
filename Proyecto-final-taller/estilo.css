@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: white; 
+}
+
+header {
+    background-color: rgb(35, 80, 22);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 15px;
+    padding: 10px;
+    transition: background-color 0,3s, color 0,4;
+}
+
+nav a:hover {
+    text-decoration: underline rgb(241, 245, 241);
+    font-weight: bolder;
+    transition: all;
+}
+
+#divis, #opiniones, #equipo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(250, 249, 249);
+    border-radius: 8px; 
+    box-shadow: 0 2px 10px rgb(119, 117, 117);
+    margin: 20px; 
+}
+
+h2 {
+    color: rgb(8, 8, 8);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-bottom: 10px; 
+}
+
+blockquote {
+    font-style: oblique;
+    color: rgb(35, 80, 22);
+    margin: 10px 0; 
+    padding: 10px;
+    border-left: 4px solid rgb(35, 80, 22); 
+    background-color: rgb(184, 179, 179);
+}
+
+footer {
+    background-color: rgb(35, 80, 22);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
